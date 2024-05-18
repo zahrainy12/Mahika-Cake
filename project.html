@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mahika Cake</title>
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="#header">
+          <img src="image/Frosted_strawberry_cake-removebg-preview.png" alt="Logo">
+          <div class="header-container">
+            <h1>Mahika Cake</h1>
+          </div>
+        </a>
+        
+        <button type="button" onclick="location.href='#header'">Home</button>
+        <button type="button" onclick="location.href='#aboutus'">About Us</button>
+        <button type="button" onclick="location.href='#pricelist'">Price List</button>
+        <button type="button" onclick="location.href='#order'">Order Form</button>
+        <button type="button" onclick="location.href='#contact'">Contact Us</button>
+      </nav>                       
+
+  <header id="header">
+    <!--header website-->
+    <h1>⚝ Mahika Cake ⚝</h1>
+    <p>The Perfect Cake Made by Heart</p>
+    <p>Celebrate your special day with us</p>
+
+  </header>
+
+  <!-- section about us -->
+  <section id="aboutus">
+    <h2>About Us</h2>
+    <p>Welcome to Mahika Cake, where we create delicious and beautiful cakes to make your celebrations memorable.</p>
+    <p>Our cakes are made with love and attention to detail. Explore our menu and place your order to experience the perfect cake made just for you.</p>
+    <img src="image/mahika cake.png" alt="Mahika">
+  </section>
+  
+  <!--section pricelist-->
+  <section id="pricelist" class="pricelist">
+    <h2>Pricelist</h2>
+  
+    <ul>
+      <li>
+        <h4>Simple Cake</h4>
+        <img src="image/simple cake.jpg" alt="Simple Cake">
+        <p>Diameter 14cm → 295k</p>
+        <p>Diameter 16cm → 345k</p>
+      </li>
+  
+      <li >
+        <h4>Mini Cake</h4>
+        <img src="image/mini cake.jpg" alt="Mini Cake">
+        <p>Diameter 12cm → 199k</p>
+      </li>
+  
+      <li>
+        <h4>Tarts</h4>
+        <img src="image/tarts.jpg" alt="Tarts">
+        <p>Diameter 20cm → 375k</p>
+      </li>
+  
+      <li>
+        <h4>Bento Cake</h4>
+        <img src="image/bento cake.jpg" alt="Bento Cake">
+        <p>Diameter 10cm → 110k</p>
+      </li>
+  
+      <li>
+        <h4>Add Ons</h4>
+        <img src="image/bday card.jpg" alt="Bday Card">
+        <img src="image/candle.jpg" alt="Card">
+        <p>Candle @3pcs → 10k</p>
+        <p>Premium Birthday Card → 15k</p>
+      </li>
+    </ul>
+  </section>  
+
+<!--section order-->
+<section id="order">
+    <form action="" method="post">
+      <label for="name">Nama</label>
+      <input type="text" id="name" name="name" placeholder="Nama">
+      
+      <label for="order">Order Cake</label>
+      <select id="choose_order" name="choose_order">
+    </select>
+      
+      <label for="delivery_date">Tanggal Pengiriman</label>
+      <input type="date" id="delivery_date" name="delivery_date" placeholder="Tanggal Pengiriman">
+      
+      <label for="phone_number">Nomor Telepon</label>
+      <input type="text" id="phone_number" name="phone_number" placeholder="Nomor Telepon">
+      
+      <button type="submit">Pay Now</button>
+    </form>
+  </section>
+  
+  <!--section contact-->
+  <section id="contact">
+    <h1>If You Have Any Question, Please Contact Us</h1>
+    <img src="image/Frosted_strawberry_cake-removebg-preview.png" alt="Logo">
+  </section>
+
+  <!--section footer-->
+  <footer>
+    <div class="credit">
+      <a href="https://api.whatsapp.com/send?phone=082112663866" target="_blank">
+        <img src="image/logo wa.png" alt="Logo WhatsApp">
+      </a>      
+      <p>Mahika Cake| &copy; 2023.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Modal -->
+<div id="imageModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="modalImage">
+</div>
